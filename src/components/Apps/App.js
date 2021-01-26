@@ -8,7 +8,7 @@ function App() {
       <Landing> </Landing>
       <Projects> </Projects>
       <Skills> </Skills>
-      <About > </About>
+      <About> </About>
       <Contact> </Contact>
       
       

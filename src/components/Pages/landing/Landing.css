@@ -1,0 +1,129 @@
+* {
+    font-family: 'Poiret One', cursive;
+}
+
+.landing__container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:url('./assets/landing.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.landing__name {
+position: absolute;
+width: 848.56px;
+height: 115px;
+padding: 15px;
+left: 160.92px;
+top: 90px;
+font-style: normal;
+font-weight: normal;
+font-size: 170px;
+line-height: 65.33%;
+text-align: center;
+letter-spacing: 0.045em;
+word-spacing: 90px;
+background: linear-gradient(180deg, #B3B7D9 0%, #D6D5E6 96.27%);
+background-clip: text;
+-webkit-background-clip:text;
+color:transparent;
+text-shadow: -1px 0px 6px rgba(169, 178, 212, 0.77);
+}
+
+.landing__welcome {
+    position: absolute;
+    width: 938.56px;
+    height: 100px;
+    left: 110.92px;
+    top: 359px;
+    
+    font-family: Poiret One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 141.5%;
+    /* or 91px */
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    background: linear-gradient(180deg, #B3B7D9 0%, #D6D5E6 96.27%);
+background-clip: text;
+-webkit-background-clip:text;
+color:transparent;
+    text-shadow: -1px 0px 6px rgba(169, 178, 212, 0.77);  
+}
+
+.landing__about__me {
+position: absolute;
+width: 831px;
+height: 147px;
+left: 165px;
+top: 476px;
+
+font-family: Poiret One;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 136%;
+/* or 41px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+mix-blend-mode: hard-light;
+backdrop-filter: blur(4px);
+background: linear-gradient(180deg, #B3B7D9 0%, #D6D5E6 96.27%);
+background-clip: text;
+-webkit-background-clip:text;
+color:transparent;
+}
+
+.landing__discover_button {
+    position: relative;
+    width: 287.25px;
+    height: 58.73px;
+    left: 436px;
+    top: 229px;
+    background: radial-gradient(15.55% 80.88% at 34.43% 51.43%, #A9A7D1 0%, rgba(182, 189, 219, 0.97) 100%);
+    box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.5), 0px 0px 27px rgba(85, 119, 232, 0.5);
+    border-radius: 16px; 
+}
+
+.landing__discover
+{
+    position: absolute;
+    width: 180.25px;
+    height: 58.73px;
+    left: 46px;
+    top: 229pcx;
+    background: none;
+font-family: Poiret One;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 110.5%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #FAEEFF 100%);
+background-clip: text;
+-webkit-background-clip:text;
+
+color:transparent;
+border: none;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.2em;
+mix-blend-mode: normal;
+text-shadow: 1px 0px 22px #FFFFFF, -2px 0px 4px rgba(115, 107, 214, 0.87);
+}
+
+.landing__rocket__logo {
+    position: absolute;
+    left: 500px;
+    top: 235px;
+}
